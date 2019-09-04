@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "esnext",
+    // "allowJs": true, /* Allow javascript files to be compiled. */
+    "rootDir": "game_mac_server/typescript",/* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "outDir": "game_mac_server", /* Redirect output structure to the directory. */
+    "strictNullChecks": true,
+    "watch": true,
+    "pretty": true,
+    "newLine": "LF",
+    "sourceMap": false,
+  
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
