@@ -5,7 +5,7 @@ class ServerConfig {
         //连接服务器的请求地址
         let ip = '47.97.32.55';	 //测试服务器
         // let ip = 'localhost' ;	
-        this.ip = process.env.NODE_ENV == 'production' ? window.location.hostname : ip;  //从浏览器拿ip
+        // this.ip = process.env.NODE_ENV == 'production' ? window.location.hostname : ip;  //从浏览器拿ip
         // this.ip='115.451.15.154';  //假ip地址
         this.httpAddress = `${window.location.protocol}//${this.ip}:13581`
         // this.httpAddress=`http://localhost:9001`  //测试服务器
