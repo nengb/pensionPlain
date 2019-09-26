@@ -7,7 +7,7 @@ class ServerConfig {
         // let ip = 'localhost' ;	
         // this.ip = process.env.NODE_ENV == 'production' ? window.location.hostname : ip;  //从浏览器拿ip
         // this.ip='115.451.15.154';  //假ip地址
-        this.httpAddress = `http://${this.ip}:13581`
+        this.httpAddress = `https://www.csxtech.com.cn/crawler_movie`
         // this.httpAddress=`http://localhost:9001`  //测试服务器
 
 
