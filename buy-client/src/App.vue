@@ -18,6 +18,8 @@
 </template>
 
 <style lang='less'>
-
+body{
+  
+}
 
 </style>

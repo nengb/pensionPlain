@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home/index.vue'
 import Movie from './views/Movie/index.vue'
+import CreditCard from './views/CreditCard/index.vue'
 
 let { ip, httpAddress, socketAddress, imgAddress, getHrefNew, getQueryStringArgsAes,path } = serverConfig;
 
@@ -12,6 +13,7 @@ export default new Router({
   routes: [
     { path:'/',  name: 'home', component: Home },
     { path:'/movie',  name: 'movie', component: Movie },
+    { path:'/creditcard',  name: 'creditcard', component: CreditCard },
 
   
 
