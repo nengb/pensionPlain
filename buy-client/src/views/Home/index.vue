@@ -9,7 +9,7 @@
       <van-field v-model="lifeMax"  label="寿命" placeholder="请输入寿命"  />
       <van-field v-model="monthSaveMoney"  label="每个月存的钱" placeholder="每个月存的钱"  />
       <van-field v-model="inflationRate"  label="通货膨胀率" placeholder="通货膨胀率"  />
-      <van-field v-model="earnRate"  label="年收益率" placeholder="年收益率"  />
+      <van-field v-model="earnRate"  label="年收益率" placeholder="年收益率" />
     </van-cell-group>
 
     <div class="btn"><van-button  type="primary" @click="saveMoney"> 生成报告</van-button></div>

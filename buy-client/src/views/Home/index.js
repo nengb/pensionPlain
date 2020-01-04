@@ -25,7 +25,7 @@ export default {
       retireMonthCostMoney:4000,      //默认退休每个月花费
       monthSaveMoney:2000,            //默认每个月存钱
       inflationRate:0.06 ,            //通货膨胀率
-      earnRate:0.08 ,                 //年收益率
+      earnRate:0.09 ,                 //年收益率
       report:[],
       retireReport:[],
     }
@@ -40,6 +40,8 @@ export default {
   methods: {
      saveMoney(){
        console.log(`生成数据`)
+       this.earnRate = Number(this.earnRate)
+
         this.report=[]
         this.retireReport=[]
         let a = this.retireCost(this.lifeMax-this.retireYear)
@@ -76,7 +78,8 @@ export default {
       // console.log(`第${i}年 第${60+i}岁 allMoney ${allMoney}`)
       }
       return allMoney
-    }
+    },
+  
 
 
   }
